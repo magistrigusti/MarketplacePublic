@@ -1,0 +1,93 @@
+.whitelistInfo > *:nth-child(even) {
+    text-align: right;
+}
+.light {
+    .whitelistInfo > *:nth-child(even) {
+        font-weight: 500;
+    }
+    .whitelistInfo > *:nth-of-type(even) {
+        color: #361616;
+    }
+    .whitelistInfo > *:nth-of-type(4n) {
+        color: #4c4316;
+    }
+}
+
+.dark {
+    .whitelistInfo > *:nth-of-type(even) {
+        color: #6fdaab;
+    }
+    .whitelistInfo > *:nth-of-type(4n) {
+        color: #77bdf4;
+    }
+}
+
+.timeLeft {
+    @apply my-4;
+}
+
+.dark {
+    .timeCard {
+        background-color: #2a2a74;
+        @apply text-white;
+    }
+	.inviteIconWrapper {		
+		background-color:  #6276df !important;
+		
+	}
+    .seamlessCardWrapper {
+        .inviteIconWrapper {		
+            background-color: #dfdfdf41;	
+            img{
+                filter: invert(100%)
+            }		
+        }
+    }
+}
+
+.light {
+    .timeCard {
+        background-color: #dfdfdf;
+        color: var(--ion-text-color);
+    }
+	.inviteIconWrapper {		
+		background-color: #6276df !important;	
+		img{
+			filter: invert(100%)
+		}		
+	}
+    .seamlessCardWrapper {
+        .inviteIconWrapper {		
+            background-color: rgb(207, 207, 207);	
+            img{
+                filter: invert(100%)
+            }		
+        }
+    }
+}
+.inviteIconWrapper {
+	height: 26px;
+	width: 26px;
+	border-radius: 26px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 5px;
+	a {
+		display: flex;
+		img {
+			height: 12px;
+		}
+		ion-icon {
+			font-size: 14px;
+		}
+	}
+}
+.checkboxWrapper{
+    --background-checked: #2dd36f;
+    --border-color-checked: #2dd36f;
+}
+.activeCardWrapper {
+    border: 2px solid #2dd36f;;
+}
+

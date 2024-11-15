@@ -1,0 +1,177 @@
+[
+    {
+        "name": "UTC-12",
+        "abbrev": "DST",
+        "offset": -12,
+        "label": "UTC -12:00",
+        "value": "Etc/GMT+12"
+    },
+    {
+        "name": "UTC-11",
+        "abbrev": "U",
+        "offset": -11,
+        "label": "UTC -11:00",
+        "value": "Pacific/Midway"
+    },
+    {
+        "name": "Hawaiian Standard Time",
+        "abbrev": "HST",
+        "offset": -10,
+        "label": "UTC -10:00",
+        "value": "Pacific/Honolulu"
+    },
+    {
+        "name": "Alaskan Standard Time",
+        "abbrev": "AKDT",
+        "offset": -8,
+        "label": "UTC -09:00",
+        "value": "Pacific/Gambier"
+    },
+    {
+        "name": "Pacific Standard Time (Mexico)",
+        "abbrev": "PDT",
+        "offset": -7,
+        "label": "UTC -08:00",
+        "value": "Pacific/Pitcairn"
+    },
+    {
+        "name": "Pacific Daylight Time",
+        "abbrev": "PDT",
+        "offset": -7,
+        "label": "UTC -07:00",
+        "value": "America/Los_Angeles"
+    },
+    {
+        "name": "Mountain Standard Time (Mexico)",
+        "abbrev": "MDT",
+        "offset": -6,
+        "label": "UTC -06:00",
+        "value": "America/Chihuahua"
+    },
+    {
+        "name": "Central Standard Time",
+        "abbrev": "CDT",
+        "offset": -5,
+        "label": "UTC -05:00",
+        "value": "America/Chicago"
+    },
+    {
+        "name": "Eastern Daylight Time",
+        "abbrev": "EDT",
+        "offset": -4,
+        "label": "UTC -04:00",
+        "value": "America/Detroit"
+    },
+    {
+        "name": "Montevideo Standard Time",
+        "abbrev": "MST",
+        "offset": -3,
+        "label": "UTC -03:00",
+        "value": "America/Montevideo"
+    },
+    {
+        "name": "UTC-02",
+        "abbrev": "U",
+        "offset": -2,
+        "label": "UTC -02:00",
+        "value": "America/Noronha"
+    },
+    {
+        "name": "Cape Verde Standard Time",
+        "abbrev": "CVST",
+        "offset": -1,
+        "label": "UTC -01:00",
+        "value": "Atlantic/Cape_Verde"
+    },
+    {
+        "name": "Morocco Standard Time",
+        "abbrev": "MDT",
+        "offset": 1,
+        "label": "UTC  00:00",
+        "value": "Atlantic/Azores"
+    },
+    {
+        "name": "W. Europe Standard Time",
+        "abbrev": "WEDT",
+        "offset": 2,
+        "label": "UTC +01:00",
+        "value": "Africa/Casablanca"
+    },
+    {
+        "name": "Middle East Standard Time",
+        "abbrev": "GDT",
+        "offset": 3,
+        "label": "UTC +02:00",
+        "value": "Africa/Cairo"
+    },
+    {
+        "name": "Jordan Standard Time",
+        "abbrev": "JST",
+        "offset": 3,
+        "label": "UTC +03:00",
+        "value": "Asia/Amman"
+    },
+    {
+        "name": "Samara Time",
+        "abbrev": "SAMT",
+        "offset": 4,
+        "label": "UTC +04:00",
+        "value": "Europe/Astrakhan"
+    },
+    {
+        "name": "Yekaterinburg Time",
+        "abbrev": "YEKT",
+        "offset": 5,
+        "label": "UTC +05:00",
+        "value": "Asia/Yekaterinburg"
+    },
+    {
+        "name": "Central Asia Standard Time",
+        "abbrev": "CAST",
+        "offset": 6,
+        "label": "UTC +06:00",
+        "value": "Antarctica/Vostok"
+    },
+    {
+        "name": "SE Asia Standard Time",
+        "abbrev": "SAST",
+        "offset": 7,
+        "label": "UTC +07:00",
+        "value": "Antarctica/Davis"
+    },
+    {
+        "name": "China Standard Time",
+        "abbrev": "CST",
+        "offset": 8,
+        "label": "UTC +08:00",
+        "value": "Asia/Hong_Kong"
+    },
+    {
+        "name": "Japan Standard Time",
+        "abbrev": "JST",
+        "offset": 9,
+        "label": "UTC +09:00",
+        "value": "Asia/Dili"
+    },
+    {
+        "name": "E. Australia Standard Time",
+        "abbrev": "EAST",
+        "offset": 10,
+        "label": "UTC +10:00",
+        "value": "Australia/Brisbane"
+    },
+    {
+        "name": "Central Pacific Standard Time",
+        "abbrev": "CPST",
+        "offset": 11,
+        "label": "UTC +11:00",
+        "value": "Pacific/Guadalcanal"
+    },
+    {
+        "name": "New Zealand Standard Time",
+        "abbrev": "NZST",
+        "offset": 12,
+        "label": "UTC +12:00",
+        "value": "Pacific/Nauru"
+    }
+]

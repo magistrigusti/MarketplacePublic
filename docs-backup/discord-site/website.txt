@@ -1,0 +1,85 @@
+First released in December 2021, our website is live at https://soldecoder.app/, and has since been used by hundreds of users. In order to gain access, you will have to be within our Discord and with a proper role (before the mint you can assign yourself a role in the #self-roles discord channel to get access, and after mint you'll have to hold the NFT to have the role).
+
+Below is an overview of our current modules:
+- Search bar in the header - Searching across Discord / Twitter
+- Today's Mints - Autonomous page that lists all of the mints for that day
+- WL Token Market - Tracking WL tokens listed on Fox Token Market
+- Mint Stats - Viewing statistics on mints we automatically alerted
+- Stacked Line Search - Graphing multiple words against each other to judge popularity / hype
+- Alerts - Manage the various alerts that SOL Decoder provides
+
+
+Search bar in the header
+
+
+After doing a search in the header, you'll see graphs and results about your search term.
+- Graphs on top will show you how popular your search word in the past five days, and across the discords (the names of which have been anonymized) and Twitter. Don't care about charts? Permanently toggle them off on the top right
+- Search results will be shown below, and you can scroll through each page of 100 results, as well as click into any message to see what that Discord said after that message
+
+How to use this page to gain an edge:
+- Perform one search, instantly get results from over 10 discords worth 250+ SOL. You no longer need to hop around multiple discords to just the hype of an upcoming mint or one of your existing NFTs. Lots of bullish messages from several discords will usually lead to a hyped mint ... and seeing hardly any posts about an NFT you minted two weeks ago could mean little demand (thus a slow decline in price)
+
+
+Today's Mints
+
+
+Clicking on "Today's Mints" (in the sidebar) shows a page to view info on mints releasing today (all info. is automatically populated)
+- Projects must have > 2,000 Discord members and > 1,000 Twitter followers before showing up on the list
+- "# Tweet Interactions" gets an average of the Comments / Likes / Retweets (over the last 5 tweets), and adds them
+- You can search through the table in the top right, and page through the data on the bottom right
+
+How to use this page to gain an edge:
+- With 20-40 mints coming out everyday - you need only pay attention to the most followed ones (those with most discord / twitter followers), and you can combine it with a search in the website to judge their hype. If they have a high follow count & high hype from search, and optionally if they have a lower supply, then more often than not it leads to a good mint.
+
+
+Fox WL Token Market
+
+View information about the Fox Token Market website, which is used to buy and sell whitelist tokens for upcoming mints
+-  - Click this on the top right of the table, to filter the table to only the whitelist tokens in your wallet. You may either connect your wallet in the top right of the site, or add 1-3 wallets with the "+" button discussed below
+-  - Used with the above "View My Tokens", use this to filter the table to tokens that are on multiple wallets. You may add up to three wallets to watch
+-  - Use this if a token on the Fox WL Token Market doesn't have an official name yet, and you know for certain what the name of the token is
+- Click the chart image on the left to show a Price, Listings, and Sales history charts for that token
+
+How to use this page to gain an edge:
+- Perform technical analysis on the charts (in conjunction with the # of listings) to see when to buy a new token, or sell one of yours. View past tokens that aren't listed anymore to identify trends as it relates to the mint times for those tokens
+- Use this along with the alerts in Discord to be notified when new tokens are listed, so you can be among the first to buy in to a hyped token, or the first to sell a token at a high price
+- Save time by doing one click to see all of the WL tokens on Fox Token Market and their prices on 3 of your wallets. Send these tokens to the trash, and soon get alerts on any new WL tokens being added to your wallet
+
+
+Mint Stats
+
+This shows price updates / summaries from our discord's #mint-alerts-automated channel, so you can see how we did in the past. As a reminder, this channel is live feed that parses links from the discords / twitters we watch. It alerts when any link could contain a new mint, before or while it is released. The mint must be linked from two discords before it shows up.
+
+
+How to use this page to gain an edge:
+- Gain more confidence in the mints the discord alerts, especially during bull market times. Gain more confidence in holding runners, where the most profitable of which can get 3,800%+. 
+- View the meta of the NFTs, and try to analyze which meta are pumping the most, so you can mint the next similar one
+
+
+Stacked Line Search 
+
+Compare multiple words (ie. multiple NFTs) against each other, using all the messages from the several Discords we pull from
+
+How to use this page to gain an edge:
+- Useful for plugging in several things in the morning, and seeing which NFT is most hyped
+
+
+
+Alerts
+
+
+
+Get alerts when new tokens are dropped into your wallet - so you never miss a sell, or never miss the whitelist.
+
+
+Get alerts when any WL Token gets a name - perhaps its a hyped mint and you can buy it cheaply before it pumps!
+
+
+Get alerts when Discords link new mints - as you can see from our "Mint Stats" page, they can do quite well.
+
+
+
+
+Learn More
+
+Discord Overview

@@ -1,0 +1,82 @@
+.bg-sections-bslgray {
+    // min-width: 275px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    .bsl-red-gradient {
+        background: linear-gradient(93.82deg, #ff7f23 15.86%, #e974b1 59%, #ff2a0d 126.3%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .bsl-blue-gradient {
+        background: linear-gradient(90deg, #4b68ff, #4bc4df 3.13%, rgba(70, 89, 255, 0.91));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .bsl-green-gradient {
+        background: linear-gradient(90deg, #4b68ff, #dfa44b 2.61%, rgba(70, 255, 177, 0.91));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .c-text-sky-blue {
+        color: #bccdff;
+    }
+    .c-text-ochre {
+        color: #f2c368;
+    }
+    .c-text-pink {
+        color: #f97cf4;
+    }
+    .c-text-green {
+        color: #6fdda9;
+    }
+}
+
+.c-sub-text {
+    letter-spacing: 0.05em;
+    color: #fefefe;
+}
+
+.bg-grad-green-blue {
+    background-image: linear-gradient(90deg, #6fdda9, #6276df);
+}
+
+.tab-btn {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #8932e8;
+}
+
+.tab-btn-second {
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ea490f;
+}
+
+.grad-border-blue-green {
+    padding: 2px 15px;
+    background: linear-gradient(#01021a, #01021a) padding-box, linear-gradient(to right, #6fdda9, #6276df) border-box;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.grad-border-blue-green-unstake {
+    padding: 2px 15px;
+    background: linear-gradient(#1b1c31, #1b1c31) padding-box, linear-gradient(to right, #6fdda9, #6276df) border-box;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.card-wrapper {
+    background-color: rgba(255, 255, 255, 0.1);
+    .card-img {
+        height: 180px;
+        img {
+            height: 100%;
+            min-width: 100%;
+            object-fit: cover;
+        }
+    }
+}

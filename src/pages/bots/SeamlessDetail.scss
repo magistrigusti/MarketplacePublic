@@ -1,0 +1,131 @@
+ion-card {
+    border-radius: 10px;
+    .cardImage {
+        .cardMainImage {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+            max-height: 250px;
+            min-height: 250px;
+        }
+
+        .cardNoImage{
+            height: 60px;
+            width: 100%;
+            object-fit: cover;
+            max-height: 250px;
+            min-height: 250px;
+        }
+
+        .cardOverlay-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            .socialMediaIcon {
+                img {
+                    filter: invert(100%);
+                    margin: 5px;
+                }
+                min-height: 50px;
+            }
+        }
+    }
+    .content-extra-space {
+        height: 10px;
+    }
+
+    .greenText {
+        color: rgb(44, 150, 100);
+    }
+    .BlueText {
+        color: rgb(100 113 224);
+    }
+    ion-select {
+        width: 100%;
+    max-width: unset;
+    }
+    .ion-item-wrapper{
+        --color: #fff !important;
+        --background: #212838 !important;
+    }
+    .select-items {
+        position: absolute;
+        background-color: DodgerBlue !important;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+      }
+}
+select option {
+    background: #2A3246;
+    color: #fff;
+}
+.cardButton {
+    text-transform: capitalize;
+    --border-radius: 10px;
+    --background: linear-gradient(
+        to right,
+        rgb(110 222 170),
+        rgb(100 113 224)
+    );
+}
+.seamless-tab-btn-active{
+    // background-color:#2A3246 ;
+    background-image: linear-gradient(90deg, #737C9B, #3C476D);
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.seamless-tab-btn-active-colored{
+    // background-color:#2A3246 ;
+    background-image: linear-gradient(135deg, #6fdda9, #6276df) !important;                                                                                                                                       
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.danger-btn{
+        background-image: linear-gradient(135deg, #fb1d51, #f3d6cd) !important;
+}
+.edit-btn{
+    background-image: linear-gradient(135deg, #537cf8, #becdf3) !important;
+}
+.seamless-tab-btn-deactive{
+    // background-color:#2A3246 ;
+    border: 2px solid white; // #2A3246
+    --color: var(--ion-color-primary-contrast); // #2A3246;
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.light{
+    .c-res-bg-white{
+        background-color: rgb(255 255 255 / 40%); 
+        ion-icon {
+            color: #212838;
+        }
+    }
+    .seamless-tab-btn-deactive{
+        border: 2px solid #2A3246
+    }
+}
+
+

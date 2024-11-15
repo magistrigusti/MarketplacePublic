@@ -1,0 +1,556 @@
+start-here
+
+
+**What is SOL Decoder?**
+SOL Decoder is a suite of tools to find new mints and judge hype of existing mints / NFTs. It is a website with a "Google-like" search engine for SOL NFTs, with automated alerting capabilities for talked about mints, a daily mint schedule, and features/alerts to help manage your whitelist tokens with Fox Token Market. The Discord interacts with all of this data though over a dozen bots, many of which any server can use in the near future.
+
+The website stores 25,000+ messages every day from 12+ private discords, as well as dozens of twitter accounts. It provides a search page that searches all of them, while also providing graphs to see how often that search term was talked about over time. **Perform one search, instantly get results from over 12 discords worth 200+ SOL.**
+
+We also store all of the whitelist tokens from Fox Token Market, and provide various quality-of-life features (such as ***one click to see all of the WL tokens on Fox Token Market and their prices on 3 of your wallets, and alerts on new tokens added to your wallet***) and price history charts on them. A daily mint schedule is automatically updated on both the website and Discord, it shows the number of Discord/Twitter followers, and shows their Twitter interaction.
+
+The Discord contains many automated bots such as the daily mint schedule, pings when multiple discords link a new mint, feeds of new Discord invites and public giveaways, and feeds showing when Fox Token Market adds a new name to a token or when a user adds a custom name to a token. Also available are bots users can use on demand, such as seeing the price/listings/price chart of any whitelist token, seeing all of the price information on whitelist tokens in any wallet, getting mint details of a URL containing a live mint, and seeing the last 10 results of any search term you give it, across our vast database.
+
+In development since December with hundreds of users, everything is live now and free to use before mint, with near daily updates and soon to come Apple and Android apps.
+
+**Other Notable Channels**
+#📢｜self-roles  to get the role for access to the full discord and website, before mint
+
+#🔗｜links-and-mint-info to view the website, and see details about the mint
+
+#❓｜whitelist-faq for whitelist information
+
+**Other Links**
+- Website Overview - https://docs.soldecoder.app/books/site-and-discord-overview/page/site-overview
+- Expanded Discord Overview - https://docs.soldecoder.app/books/site-and-discord-overview/page/discord-overview
+
+Just one of the many pages of the site:
+
+
+----
+
+links mint info
+
+:paperclip: **Official Links**:
+- **Website**: https://soldecoder.app
+- **Twitter**: https://twitter.com/SOL_Decoder
+- **Docs**: https://docs.soldecoder.app
+___
+
+:bangbang:  **Mint Info**:
+- **Price**: TBD
+- **Date**: When it's ready (targeting April)
+- **Supply**: TBD
+- **Presale**: Members that are whitelisted will have their wallets whitelisted, and only those wallets can mint during the pre sale
+- **Other notes**: Will look to list on Magic Eden. Holding the NFT gives you access to most of the site and most of the discord, while holding 3 of the NFT gives full access to the site and full access to the discord. More details on that in #📚｜start-here
+
+**LIMITED SUPPLY, ZERO SUBSCRIPTIONS, ZERO RENEWALS**
+Buy once, and that's it - current use and all future updates are free. We aim to provide incredible utility with our SOL Decoder Pass - so much that you should be hard pressed to want to sell one. We have thus limited the supply, and you will never have to pay any renewals or subscription fees.
+
+
+------
+
+faq
+
+
+> **FAQ**
+
+> **What is SOL Decoder?**
+
+SOL Decoder is a suite of tools to find new mints and judge hype of existing mints / NFTs. It is a website with a "Google-like" search engine for SOL NFTs, with automated alerting capabilities for talked about mints, a daily mint schedule, and features/alerts to help manage your whitelist tokens with Fox Token Market. The Discord interacts with all of this data though over a dozen bots, many of which any server can use in the near future. Read more here - https://docs.soldecoder.app
+
+> **What’s the link?**
+https://soldecoder.app/
+Note you will need to be in our Discord and with a certain role, to access the site. See #📢｜self-roles
+
+> **Mint details?**
+The Date is TBD, currently targeting April, with a supply of TBD. From that, 50 will be saved for marketing and team purposes. And there will be 7% royalty costs to cover dev costs and hardware costs, from running the site and all the bots.
+
+> **Will the site be free to use after mint?**
+No, you will need to hold one NFT to gain access to the site and most of the Discord. You will need to hold three NFTs to gain full access to the Discord.
+
+> **Whitelist?**
+Check our Discord in the #❓｜whitelist-faq section to see how to get whitelisted
+
+> **Why should I buy & hold one?**
+Buy once, and that's it - website / Discord use and all future updates are free. We aim to provide incredible utility with our SOL Decoder Pass - so much that you should be hard pressed to want to sell one. We have thus limited the supply, and you will never have to pay any renewals or subscription fees.
+
+> **What powers SOL Decoder?**
+- A frontend (React) and backend (NodeJS), hosted on Google Cloud infrastructure that could scale infinitely to handle mass users
+- A noSQL database and a SQL database, hosting 14 of our tables on Google Cloud and AWS. Caching for certain backend endpoints done with - Redis
+- Python and Discord bots running on a 24/7 VPS
+- 5 cron jobs running 24/7 to automate database ingestion and Discord bots
+
+> **Who is the team behind SOL Decoder?**
+SOL Decoder is created by RST LLC and its affiliates based out of Wyoming, USA. The team consists of five developers and three artists. Founded in 2021, we hope to become a premier developer within the SOL NFT space, providing our users with exceptional utility with the SOL Decoder website and Discord, and serving other Discords by allowing them to use our SOL Decoder bot.
+
+SOL Decoder will be undergoing a Rad Rugs review before the mint launches.
+
+> **What Discords do you pull from?**
+The website stores 25,000+ messages every day from 12+ private discords, as well as dozens of twitter accounts. It provides a search page that searches all of them, while also providing graphs to see how often that search term was talked about over time. **Perform one search, instantly get results from over 12 discords worth 200+ SOL.** All Discord names and usernames are kept anonymous
+
+------
+
+
+roadmap
+
+> **Roadmap v1.0**:  Completed and free to use before mint!
+
+Read about it here - https://docs.soldecoder.app/books/intro/page/roadmap-10
+
+------
+
+> **Roadmap v2.0**: Our future roadmap will consist of the expansion of each of our existing pages in our website, adding new pages, adding user customizable alerts, adding more Discord bots, releasing Discord bots to other servers (requires ownership of 1 or more NFTs), and the release of official Apple and Android apps.
+
+> **Website**
+
+**Home page & Misc.**
+- New section to show mints releasing within the next few hours
+- New section to show all the mints that Discords talked about (not just the ones alerted on by 2+ Discords)
+- New section to show “Recent Community Searches”
+- New section to show “Trending Words” (most popular words from past day, 3 days, 1 week)
+
+**Search page**
+- Combining multiple data sources with our search page – do a search on a new mint and get back (1) discord & twitter results, (2) Fox token price & charts, (3) mint details from Today’s mints, and (4) the last few tweets from that project
+- Overhauling our search logic to find more results for your search term. For example searching on “astrals” would find results for (1) astrals, (2) astral, and (3) astrl
+
+**Today’s Mints**
+- Set alerts on individual mints, that get sent to you 30 minutes before release
+- Showing more than one day of mints
+- Social features to see how other people voted on each mint
+- Automatically showing the # of messages our private Discord said about the mint
+- Above will calculate sentiment as well – ie. are most of the messages on this mint overly bearish? The table will show how bearish the messages are vs how bullish they are
+- Having a custom ranking that takes in to account the mint’s supply vs total discord members vs online discord members vs twitter followers vs twitter interaction vs private discord message history
+
+**Fox WL Token Market**
+- Set alerts when a WL token gets dropped to your wallet
+- See when each token was dropped into your wallet
+- Showing stats on the # listed vs total supply of that token
+- Able to hover over the chart to see values where your cursor is
+
+**Mint Stats**
+- Set alerts tied to the meta of each mint. For example “only get alerted when a new staking meta NFT gets parsed in the Discords)
+
+**Alerts**
+- We currently have alerts where we should catch most of all the hyped mints coming out. We next want to expand to smarter Fox Token market alerts. For example, when any WL with an official or custom name has > 1 Sol price and > 10 listings, we’ll be alerted. Users can then research what this token is, in case it wants to spike even higher before the general public learns about it
+- After new mints & WL token alerts, we then want to catch all of the movements within individual NFTs. Users can set alerts on individual Magiceden NFTs, or on all NFTs greater than a certain floor price, and over a certain volume. Users can set to be alerted when it pumps a certain % (ie. 20%) within a certain timeframe (ie. 30 minutes). Upon getting the alert, you will see the Discord history, and official Tweets for that NFT. Perhaps they just announced staking so you can get in early.
+
+**New Pages**
+- “My NFT” page – connect your wallet(s) and see all of your NFTs. See a feed of what our private discords said about each of your NFTs combined, or drill down into an NFT to see history about just that NFT
+- Profit calculator – calculates how much you will make from an NFT sale, minus the artist % and magiceden’s %
+- We have other new pages planned, that we’ll announce at a later date
+- We also promise to always stay up to date with the current meta / trends, such as us adding all the Fox Token page, when whitelist tokens became the new meta
+
+> **Apps**
+- An official app to be released on the Apple App store
+- An official app to be released on the Google Play store
+- Both apps will have the exact same functionality as the website
+
+
+
+> **Discord Bots**
+**Discord – User Bots**
+- New bot that accepts a search term, and shows a graph of how often that search term was talked about in our private Discords over the past week
+
+**Discord – Automated Bots**
+- New bot to once a day show the “Trending Words” (most popular words from past day, 3 days, 1 week)
+- New bot that an hour before one of the top 7 mints releases, will show recent discord messages on that mint, and show the last 2 official tweets
+
+**Discord – Make bots available to other servers**
+- Any server will be able to add our SOL Decoder bot to it. Depending on how many NFTs that server holds, they will unlock one or more of the features our bots has. This will include most of the “user bots” (that are currently used in #decode-bot-commands) and “automated bots” (such as those in #analytics-etc).
+
+
+--
+
+selfroles
+
+
+
+Please click the below to get the @Minter role
+
+This will be used to receive pings when a new mint gets detected in multiple discords, which is sent to #mint-alerts-automated.
+
+Note channels such as #daily-mints will not have any pings, but you may set it to have notifications for all messages for those channels.
+
+
+
+
+Please click the below to get the @fox-wl-alerts role. This gives pings when WL tokens get official names by the Famous Fox team, or when a user of SOL Decoder adds a custom name to one.
+
+These are otherwise sent to #analytics-etc
+
+
+
+Professor Decoder | Team
+ —
+03/17/2022
+Any @Member role can use the site / discord for free until mint. After which, any channels in "1-NFT-HOLDERS" and "3-NFT-HOLDERS" category will be locked down, and use of the site will be locked down to holders of the NFT
+
+@used-the-site role means you've clicked through the site, and are thus eligible for
+🎉｜giveaways, and for mods to give you whitelist after seeing chat contributions
+
+@whitelist-official role is still available, and more explanations can be seen in
+❓｜whitelist-faq
+
+
+-----
+
+announcements
+starthere
+linkmintinfo
+faq
+roadmap
+artsneakpeak
+changelog
+verify
+welcome
+giveawayws
+selfroles
+
+
+----
+
+staff chat
+staff guide
+shillcentral
+violations
+violations-chat
+logs
+analysis-tempoery
+futturechannelsmessges
+
+----
+
+
+staff-guide
+
+
+
+
+Professor Decoder
+#3043
+
+Night | Team
+ —
+02/03/2022
+Image
+Professor Decoder | Team
+ —
+02/08/2022
+Guide to opening up discord:
+1) .role all - @temporary-discord-and-site-access
+2) let "members" and "whitelisted-official" (or maybe just members) be able to invite people
+3) reply to any tickets in
+🤝｜support that were on hold for a DAO
+4) type announcement
+5) delete everyone from firebase auth
+
+Guide to closing discord:
+1) remove invite permissions
+2) close off any tickets, or put them on hold
+3) quick announcement, no ping
+4) make sure noone comes in "welcome"
+5) give roles if needed
+Professor Decoder | Team
+ pinned
+a message
+ to this channel. See all
+pinned messages
+.
+ —
+02/08/2022
+Night | Team
+ —
+02/23/2022
+Decoder Staff guidelines (Trials)
+Hello and welcome to the Decode team!
+This document is a list of requirements, guidelines and information that is needed to properly fulfill your staff duties. Please carefully read everything and make sure you understand everything. If there is anything unclear you can contact another staff member or a higher staff member.
+
+Your main tasks:
+As a trial your main task is to help and inform users. This means being active and friendly in the community and answering questions/ guiding users.
+
+Trials:
+Trial is the first rank every one gets when joining the team. This is a test rank to evaluate you and to see if you really fit the team. You can show us your qualities by being online and helping users as much as possible (answering questions, welcoming users, creating a positive and friendly environment).
+You will get access to a couple commands that will help you in controlling chat and making correct decisions. The way you will be using these commands will show us if you are ready for a higher rank with more responsibilities or not.
+Trial commands are:
+?warn
+?tempmute
+
+These are really basic commands and should only be used when absolutely necessary.
+(I good tip is to take these conversations to pm as soon as possible to not spam other users and to have the most control over the conversation)
+If you do need to use them, follow the command guidelines found down below.
+
+Will send guidelines in a bit
+Night | Team
+ —
+02/23/2022
+Decode Staff guidelines (Mod )
+Wow, you already made it quite high in the team! Thanks for all the efforts, time and energy you have already put into the server 🙂  Higher roles do come with more tasks, responsibilities and permissions. At this role we expect you to know a ton about our server and know how to act in most situations. You are familiar with all our rules, team members and have a healthy positive attitude.
+
+Your main tasks:
+Your main task is to make sure everyone has a pleasant time on the server. You should still help users with questions and guiding them, but also motivate trials and helpers to do this.
+
+Mods:
+As a moderator you have proven that you know our server more than enough and that you put time and effort in making it a pleasant and safe place for everyone. This includes chat moderating, and knowledge for Setting Up Bots and Various Other Important stuff
+Mod commands are:
+
+(Input whatever command a mod shud have)
+Prolly timeout and mute only?
+
+
+
+
+More will soon be added, depending on the staff needs.
+These commands should only be used when absolutely necessary and following the guides found in the low staff guides.
+Starting from moderator rank we will also trust you more in handling situations and even hosting small events and creating projects for the server (Under the guidance and with approval and support from high-staff).
+Night | Team
+ —
+02/26/2022
+.
+
+Common Questions:
+Q1. What is Temporary Whitelist
+> <@&932044644026568785>  role means you can use the entire discord / website free of charge until mint day. You can get whitelisted
+official by following the steps in <#932112753949302825>
+
+Q2. What is this server About?
+
+Expand
+message.txt3 KB
+Common Questions:
+Q1. What is Temporary Whitelist
+
+    @temporary-discord-and-site-access  role means you can use the entire discord / website free of charge until mint day. You can get whitelisted
+
+official by following the steps in
+❓｜whitelist-faq
+
+Q2. What is this server About?
+
+📚｜start-here  to read up on stuff, which links to
+
+    🔗｜links-and-mint-info   for site link and more info.
+
+
+    📢｜self-roles   to get access to the full discord and website, before mint
+
+
+🔎｜after-action-report  to see statistics / write ups on what we alert to everyone, and
+
+    👍｜site-n-discord-kudos  to see what members  have to say
+
+
+    📝｜change-log  to read up on new things being added to the site
+
+
+    ❓｜whitelist-faq  for whitelist information
+
+
+Q3.  What are the Violations on this server? (i.e. when to give user a warn role or a mute role and when its appropriate to do so and give a reason why they were warned / muted
+
+Q4. When should I give a user Whitelist Official?
+
+    As mentioned elaborately in
+
+❓｜whitelist-faq , If a user doesnt fullfill the requirements of
+
+    ❓｜whitelist-faq Or fakes/ claims to be in a DAO, Or steals someones Ideas Or Bugs, He/She is supposed to be given @faker-or-botter role
+
+
+
+Q5. What is
+violations?
+
+    Elaborating the above the answer, If a person claims to be in a DAO and it turns out they are actually not in the DAO they claimed to be in, or left it, We give them @faker-or-botter role
+
+How to send a message in
+violations
+Post a picture of their discord tag
+Copy paste their Developer ID
+Mention What DAO they faked to be in
+
+Q6. How to run giveaways?
+
+    Use the @Decode All-Rounder Bot or type /help or /giveaways to start a giveaway
+
+Q7. How to answer a ticket where the user wants DAO invites?
+
+    Ask the user to read
+
+    ❓｜whitelist-faq Option 4
+    Ask which DAO are the representing
+    Make a channel for the DAO to post their proof in
+    Start giving out WL only after 15 posts
+
+
+How to crosscheck if a user fakes their claim to be in a DAO
+
+    Join the server which they claimed to be in
+    Click on their profile > Mutual Servers
+    Sometimes discord Bugs out and doesnt load Mutual servers
+    Go to the DAO server and try tagging them in the main text channel which is open for all
+    If that doesnt work either, Click on Search on the top right, Type From: <Username>
+
+
+Q8. What role to give a person after muting/ warning them
+
+    @Warn 1 , @Warn 2 , @Warn 3  Accordingly
+
+P.S- Muting a person will only need a !mute <username> command and the role will be given to them automatically
+Q9. How to create a giveaway
+
+    For giveaways
+
+https://giveawayboat.com/dashboard/925207817923743794
+
+Giveaway Command
+g.create --channel #channel --winners 1 --duration 5m --name discord nitro --required-roles @role1, @role2 --blacklisted-rokes @role1 --entries @role1 5, @role2 10
+
+Or if you use short forms of option names:
+
+g.create -c #channel -w 1 -d 5m -n discord nitro -rr @role1, @role2 -br @role1 -e @role1 5, @role2 10
+Giveaway Boat
+Giveaway Boat is the best giveaway bot in Discord with a lot of features and easy to use Dashboard!
+Professor Decoder | Team
+ —
+02/26/2022
+If people start chatting with You're a mirror lol / you will rug because all mirrors rug / wtf why you copy my server ... and they do this in a very LOUD way that attracts attention / gets other people to chat about it...
+
+1) link people to https://discord.com/channels/925207817923743794/925207817923743797/947322103944851516 for past discussion on the topic
+2) Mute the person temporarily
+3) Give the person access to
+violations-chat  channel where you can chat with them (already done if they are @Muted )
+4) TAG them in that channel, then tell them in that channel hey sorry but past discussions on this topic have been had already. I linked it in chat. If you want to discuss it more with the team you can here. You are temporarily muted in the other channels for now, you will be unmuted later.
+5) If they keep talking about it in public (after they are unmuted) then perma mute them
+6) clear
+violations-chat of past chat activity after they are done talking with us about this (or rather after I have talked with them and seen the chat there)
+7) log the incident in
+violations
+
+-----
+
+Do note the first point --- it has to be LOUD / attract attention. If someone says 1 sentence and noone replies to it ... and that person doesn't talk about it again -- then don't do anything
+
+By linking the link in #1, you draw more attention to the subject, but you are only doing that to stop any FUD in the chat. Isn't any FUD if one person barely says something ... but is FUD if they say multiple sentence .. .and/or if people reply to it
+
+Also don't mute anyone replying ... unless they also keep on talking about it etc...
+Night | Team
+ —
+03/02/2022
+For rumble Royale Bot
+Image
+Night | Team
+ —
+03/15/2022
+Image
+https://giveawayboat.com/dashboard/925207817923743794
+Dashboard link ^
+Giveaway Boat
+Giveaway Boat is the best giveaway bot in Discord with a lot of features and easy to use Dashboard!
+Professor Decoder | Team
+ —
+03/17/2022
+Usual giveaway = 3 whitelists to any @Member  and BAN @whitelisted-official from entering
+Vertigo | Team
+ —
+03/17/2022
+g.giveaway
+here and cmds for it too https://giveawayboat.com/commands
+Giveaway Boat
+Giveaway Boat is the best giveaway bot in Discord with a lot of features and easy to use Dashboard!
+﻿
+
+
+-------
+
+
+
+
+shillcentral
+
+
+Professor Decoder
+#3043
+
+Professor Decoder | Team
+ —
+03/15/2022
+This channel is for mods or other members that want to receive benefits in the future (such as holding 1 NFT in your wallet, but keeping the benefits of having 3 NFTs, so you can see
+🎲｜mint-alerts-automated  etc...)
+
+    RULES:
+
+1) Post screenshots of you not only (SOFT) shilling the features of the Discord / website to other Discords ... but also proof that others took the bait and asked how to join in. I say soft shill, as in don't be like "OMG guys join SOL Decoder they are the l33test"
+
+2) Make sure that you have a link to the Discord in your PROFILE, and that when people ask to join, you just tell them "hey link is in my Discord profile here". DON'T directly link the discord
+
+3) I doubt this would happen, but make sure multiple people don't post the same shill to the same discord in a day. Maybe just come in here and claim "I'm posting to X discord right now"
+
+    HOW TO:
+
+One way is to go to the Fox Token page, and see a token that has a mint today or in next few days. Take a screenshot of it, and post something like this in their discord (IF their discord allows uploads of images)
+EXAMPLE ->
+----
+Dolphin WL token going up here, look at those listings come down
+Image
+-----
+EXAMPLE 2 ->
+---
+WL token for infinity girls pretty cheap, anyone picking up more here?
+Image
+---
+EXAMPLE 3 -> (decent example - I haven't used it as much)
+---
+Dang this SolRealty project got some nice Twitter Interactions. should do well on mint
+Image
+----
+EXAMPLE 4 -> (def one of the weaker examples, since people don't know what all the Discord names mean, could work though...)
+---
+I think this mint could do well today --- it's talked about a ton in 8 of these Discords that these graphs track
+Image
+----
+OTHER EXAMPLES? you tell me 🙂
+Professor Decoder | Team
+ pinned
+a message
+ to this channel. See all
+pinned messages
+.
+ —
+03/15/2022
+Professor Decoder | Team
+ —
+03/15/2022
+@here
+Professor Decoder | Team
+ —
+03/15/2022
+----
+EXAMPLE 5 ->
+---
+"Hey guys this tool I'm in gives tells me when new mints are linked in a few discords. Is this the discord for project dolphin?"
+
+OR
+
+"yo this tool I'm in shares when top discords talk about mints. This mint should do well, since a few are talking about this!"
+Image
+Professor Decoder | Team
+ —
+03/16/2022
+----
+posted twice in psykers over 12 hrs, one guy asked, he didnt join
+Professor Decoder | Team
+ —
+03/16/2022
+anyone want to shill dinolabs WL token, to their discord of 35k  😄 - edit nm, they dont allow uploads
+﻿
+
+
+
+-------
+
+
+
+
+
+
+

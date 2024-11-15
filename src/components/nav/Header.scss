@@ -1,0 +1,42 @@
+.headerName {
+    white-space: 'nowrap';
+    overflow: 'hidden';
+    text-overflow: 'ellipsis';
+    width: 150px;
+    font-size: 20px;
+}
+.logo-height {
+    height: 2rem;
+}
+.c-header-search {
+    @media screen and (max-width: 425px) {
+        padding-left: 0rem !important;
+        padding-right: 0 !important;
+        margin-left: 15px !important;
+        max-width: 100% !important;
+        ion-searchbar {
+            padding-inline-end: 7px; 
+        }
+        .searchbar-input.sc-ion-searchbar-md {
+            padding-inline-end: 7px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .pr-10 {
+        padding-right: 0px !important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .logo-height {
+        height: 1.5rem;
+    }
+}
+.wallet-adapter-dropdown-list-active {
+    transform: translate(67px ,10px) !important;
+}
+.wallet-adapter-button-trigger{
+    background-color: #512da8 !important;
+}
+

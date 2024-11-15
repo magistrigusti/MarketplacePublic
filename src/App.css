@@ -1,0 +1,127 @@
+.firebase-emulator-warning {
+	display: none;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.greenPctChange{
+    color: #2dd36f;
+}
+.redPctChange{
+    color: red;
+}
+
+.small-btn{
+    height: 25px;
+    /*width: 200px;*/
+    padding: 1px;
+    font-size: 14px;
+}
+.bit-bigger-btn{
+    /*width: 230px;*/
+}
+
+.big-emoji{
+    font-size: 135%;
+}
+
+.me-logo{
+    max-height: 18px;
+}
+
+@font-face {
+	font-family: 'Logo';
+	src: local('Logo'), url(./fonts/ubuntu_title/ubuntu-title-fr-1.1.ttf) format('truetype');
+	/* other formats include: 'woff2', 'truetype, 'opentype',
+							  'embedded-opentype', and 'svg' */
+}
+
+.logo {
+	font-family: "Logo";
+	@apply hover:opacity-80
+}
+
+ion-button {
+	--box-shadow: none
+}
+
+ion-split-pane {
+	--side-width: 10vw;
+}
+
+ion-item {
+	--inner-padding-start: 0;
+	--inner-padding-end: 0;
+	--padding-top: 0;
+	--inner-padding-top: 0;
+	--inner-padding-bottom: 0;
+	--padding-horizontal : 1rem;
+	--padding-start: var(--padding-horizontal);
+	--padding-end: var(--padding-horizontal);
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 100vh;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #541B6C !important;
+    border-radius: 100vh;
+	border: none !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #1F1932 !important;
+}
+
+
+/*.popover-wrapper .popover-content{*/
+/*    position: relative !important;*/
+/*    margin: 0 auto !important;*/
+/*    left: auto !important;*/
+/*    top: auto !important;*/
+/*}*/
+
+
+/*ion-menu{*/
+/*    --width: 234px !important;*/
+/*    width: 234px !important;*/
+/*}*/
+/*ion-menu ion-list{*/
+/*    width: 233px;*/
+/*}*/
+
+
+.dark .secondary-bg-forced{
+    /* color repeated on App.css & FoxTokenCharts.tsx -- pretty much color of our logo */
+    /*background-color: rgb(67, 192, 187, 0.5); !* rgba(26, 255, 163, 0.3); !* 0.1 *!*/
+
+    /* backgrounds repeated on App.css & Display.css */
+    --background : var(--ion-color-step-150);
+    background-color: var(--background);
+}
+
+.light .secondary-bg-forced {
+	--background :  var(--ion-color-step-150);
+    background-color: var(--background);
+}
+
+.picker-wrapper {
+	bottom : 50% !important;
+	top: 50%;
+	position:  fixed !important;
+}
+
+.formError {
+	@apply text-red-600 text-sm font-medium;
+}

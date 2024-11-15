@@ -1,0 +1,98 @@
+.server-module-bg {
+    width: 100wv;
+    --background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: var(--ion-color-step-100);
+    border-radius: 3px;
+}
+
+.bg-image-wrapper {
+    width: 100wv;
+    height: 250px;
+    --background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: var(--ion-color-step-100);
+    border-radius: 3px;
+}
+
+.module-icon {
+    // height: 20%;
+    // width: 20%;
+}
+
+ion-toggle {
+    height: 26px;
+    width: 46px;
+    --handle-height: 100%;
+    --handle-width: 26px;
+    --background-checked: #63f58c;
+    --handle-background-checked: rgb(255, 255, 255);
+}
+
+.server-channel-dropdown {
+    height: 50px;
+    width: 100%;
+    background-color: var(--ion-color-step-100);
+    border-radius: 8px;
+    border: 1px solid var(--ion-color-step-600);
+    padding-left: 3px;
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.MuiSwitch-colorSecondary.Mui-checked {
+    color: #ffffff !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked+.MuiSwitch-track {
+    background-color: #63f58c !important;
+    opacity: 1 !important;
+}
+
+.MuiSwitch-track {
+    background-color: var(--ion-color-step-600) !important;
+}
+
+.card-bg-blur {
+    height: 100px;
+    background-image: url('../../images/calendar-bg.png');
+    background-position: center center;
+    background-size: cover;
+}
+.card-bg-blur-fox {
+    height: 100px;
+    background-image: url('../../images/fox_bg.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.card-bg-blur-magic-eden {
+    height: 100px;
+    background-image: url('../../images/me_bg.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.module-icon-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    -webkit-backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    -ms-backdrop-filter: blur(3px);
+    -o-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    img {
+        height: 60px;
+        width: 60px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        // padding: 3px;
+    }
+}

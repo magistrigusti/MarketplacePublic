@@ -1,0 +1,49 @@
+
+
+
+.search__ripple {
+	animation: ripple 800ms linear infinite;
+	@apply w-0 h-full left-0 top-0 absolute !mx-0;
+	clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+}
+
+
+.dark .search__ripple {
+	background-color: var(--ion-color-step-100);
+}
+
+.light .search__ripple {
+	background-color: var(--ion-color-step-300);
+}
+
+
+.dark .skeleton{
+	--animation-color : var(--ion-color-step-200)
+
+}
+
+.light .skeleton{
+	--animation-color : var(--ion-color-step-400)
+
+}
+.search__messageLoading p {
+	@apply text-xs;
+	background-color: var(--animation-color);
+	color: var(--animation-color);
+}
+
+.search__image {
+	@apply rounded-full h-12 w-12 flex-shrink-0 ;
+	background-color: var(--animation-color);
+}
+
+.skeleton {
+    @apply relative;
+}
+
+@keyframes ripple {
+	to {
+		width : 100%;
+		opacity : 0;
+	}
+}

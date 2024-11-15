@@ -1,0 +1,61 @@
+
+
+
+Roadmap 1.0 is completed and free to use before mint! Read our Roadmap 2.0 in our Discord, in the #roadmap channel.
+
+
+Website
+
+Home page
+- Section showing “New Fox WL Token Market Names”, to get a live feed of all new and custom names going into there
+- Clicking through the site gives a new role in Discord, with the progress shown on home page
+- Can connect to your wallet, to later view your tokens on the Fox WL Token page 
+
+Search page
+- Graphs on your search term, with the ability to turn off the graphs
+- List of all the messages, that you can scroll through multiple pages, or click into to read just that Discord
+- Search term highlighted within the text, and attachments shown as pictures
+
+Today’s Mints
+- Table showing the mint schedule for the current day
+- Clickable links to discord / twitter / their website
+- Stats for their Discord and Twitter
+
+Fox WL Token Market
+- Table of all tokens listed on Fox Token Market (with named tokens that aren’t listed anymore still shown at the end of the table)
+- Price / listings / sales charts
+- Filter table to just your tokens (on one or multiple wallets)
+- Add new custom names to each Token
+
+Mint Stats
+- Table showing the mints we’ve alerted, with links to Magiceden and the mint website
+
+Stacked Line Search
+- Show a graph comparing multiple words against each other
+
+Data ingestion to power all of the above (stored automatically in our database)
+- Messages from 12+ discord
+- Tweets from dozens of twitter accounts
+- Fox WL Token prices & sales history
+- New mint URLs that Discords talk about
+- Mint schedule & # of twitter / discord
+
+
+Discord
+
+Discord – User Bots
+- - /search keyword:... --- Does a search on the Discords/Twitters 
+- /cmid url:... --- Takes a URL that has a live mint, and returns mint information and the CMv2 ID on it 
+- /token address:... --- Get Fox Token Market info from a WL token address 
+- /wallet_tokens: address:... Get Fox Token Market info for all tokens in an address 
+- token_name: --- Same as token, but fetches token data by the token's name rather than the token's address 
+- add_token_name: --- Add a custom name to a token. The token must exist in the database and must not already have a custom name
+
+Discord – Automated Bots
+- - daily-mints - Automated posts about upcoming NFTs, along with Twitter/Discord stats
+- - analytics-etc - Shows when names are added to WL tokens in Fox Token market (either officially or by other users)
+- mint-alerts-automated - a live feed that parses mints from the discords / twitters we watch.
+- discord-inv-parser - Detects when discord links are sent, with the same message having the words "whitelist" "wl" or "og" in it.
+- twitter-influencers - Shows posts made by dozens of SOL Twitter influencers / analysts. These are then stored in our database to be searched on
+
+

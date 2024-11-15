@@ -1,0 +1,7 @@
+{
+  "name": "SOL Decoder",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

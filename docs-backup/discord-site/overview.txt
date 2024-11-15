@@ -1,0 +1,21 @@
+What we are
+
+
+SOL Decoder is a suite of tools to find new mints and judge hype of existing mints / NFTs. It is a website with a "Google-like" search engine for SOL NFTs, with automated alerting capabilities for talked about mints, a daily mint schedule, and features/alerts to help manage your whitelist tokens with Fox Token Market. The Discord interacts with all of this data though over a dozen bots, many of which any server can use in the near future.
+
+The website stores 25,000+ messages every day from 12+ private discords, as well as dozens of twitter accounts. It provides a search page that searches all of them, while also providing graphs to see how often that search term was talked about over time. Perform one search, instantly get results from over 12 discords worth 200+ SOL.
+
+We also store all of the whitelist tokens from Fox Token Market, and provide various quality-of-life features (such as one click to see all of the WL tokens on Fox Token Market and their prices on 3 of your wallets, and alerts on new tokens added to your wallet) and price history charts on them. A daily mint schedule is automatically updated on both the website and Discord, it shows the number of Discord/Twitter followers, and shows their Twitter interaction.
+
+The Discord contains many automated bots such as the daily mint schedule, pings when multiple discords link a new mint, feeds of new Discord invites and public giveaways, and feeds showing when Fox Token Market adds a new name to a token or when a user adds a custom name to a token. Also available are bots users can use on demand, such as seeing the price/listings/price chart of any whitelist token, seeing all of the price information on whitelist tokens in any wallet, getting mint details of a URL containing a live mint, and seeing the last 10 results of any search term you give it, across our vast database.
+
+In development since December with hundreds of users, everything is live now and free to use before mint, with near daily updates and soon to come Apple and Android apps.
+
+Learn More
+
+Site Overview
+
+Discord Overview
+
+
+Just one of the many pages of the site:

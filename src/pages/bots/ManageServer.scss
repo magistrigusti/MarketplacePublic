@@ -1,0 +1,59 @@
+.server-profile-bg {
+    display: flex;
+    // border-radius: 10px;
+    backdrop-filter: blur(10px);
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-image-wrapper {
+    width: 100% !important;
+    height: 180px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #1f2129;
+    // border-radius: 10px;
+}
+
+.server-logo-wrapper {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.server-profile-img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #ffffff;
+}
+
+.add-button {
+    background-image: linear-gradient(135deg, #6fdda9, #6276df) !important;
+}
+
+.c-card-bg {
+    background-color: #2a3246;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 2px solid #555555;
+}

@@ -1,0 +1,38 @@
+
+#welcome ul li, #security ul li{
+    padding: 5px 0;
+}
+.iosButton,.androidButton {
+    height: 54px;
+}
+
+
+@media screen and (min-width: 440px) {
+    .iosButton,.androidButton {
+        height: 66px;
+    }
+    .iosButton img,.androidButton img{
+        height: 100%;
+    }
+}
+
+.login-btn-devider{
+    height: 1px;
+    width: 44%;
+    background-color: var(--ion-color-step-950);
+}
+.buy-nft-btn{
+    /* border:  1px solid var(--ion-color-step-950); */
+    /* border-radius: 5px; */
+    /* color: var(--ion-text-color); */
+    text-transform: none;
+}
+.login-right-side-wrapper{
+    background-color: #e9e9e9;
+    
+}
+.title-text{
+    color: #222428;
+}
+
+

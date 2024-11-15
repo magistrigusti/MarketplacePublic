@@ -1,0 +1,42 @@
+
+.image {
+	@apply rounded-full h-12 w-12 flex-shrink-0;
+}
+
+
+/* make the modal bigger */
+.modal-wrapper {
+    --width: 100vw;
+    --height: 75%;
+	--max-width: 1280px;
+}
+
+.media > img,
+.media > video {
+    @apply max-w-sm;
+}
+
+.dark .searched_word {
+	color: #00d0ff
+}
+.light .searched_word {
+	color: var(--ion-color-primary);
+}
+
+@media screen and (max-width: 425px) {
+    .c-res-messages {
+        padding: 0px !important;
+    }
+    .c-res-list-wrapper p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .c-res-time-text {
+        font-size: 10px;
+        min-width: 80px;
+    }
+    .c-res-title-text {
+        font-size: 14px;
+        max-width: 180px !important;
+    }
+}

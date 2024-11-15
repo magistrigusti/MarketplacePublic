@@ -1,0 +1,84 @@
+Live Bots - User Interaction
+
+
+
+
+/cmid zzz Obtain mint details for a given URL, result is returned as an embed with information displayed. Params: *url* - URL to get mint details from.
+<screenshot here>
+
+
+
+
+/token: Get details for a specific token from Fox Token Market, such as its price, total listings, floor price and price chart. Params: *address* - contract address of the token
+
+
+<screenshot here>
+
+
+- wallet-tokens: Same as token, but returns info about all tokens contained in your wallet which are also found on Fox Token Market. Params: *address*: Your SOL wallet address
+
+<screenshot here>
+
+
+
+
+/search: search through discord messages in database which contain a given keyword. Params: *keyword* - keyword to search for, *page* - which page of results is displayed
+
+We store 25,000+ messages every day from 7+ private discords (one with a floor price of over 100 SOL and another with a floor price of over 50 SOL), as well as dozens of twitter accounts.
+
+(note: NOT available to public)
+
+<screenshot here>
+
+
+
+
+Live Bots - Schedule or event based
+
+daily-mints (top 7 new mints for the day, with discord/twitter)
+
+<screenshot here>
+
+
+
+
+giveaway-parser & eth-giveaway-parser
+
+<screenshot here>
+
+discord-inv-parser
+
+
+
+
+mag-eden-nft-alerts
+
+
+
+
+raw-mint-feed and mint-alerts-automated
+
+(note: NOT available to public)
+
+
+
+
+
+
+
+Planned Bots
+
+
+
+
+/wallet zzz and it'll tell you all the recent transactions that wallet had in ME. This will then be used for our "alerting" feature later on, where it'll send you an alert when you've made some sale on ME, on all your wallets
+
+
+
+
+
+
+
+Interested?
+
+Head on over to our sign up page.

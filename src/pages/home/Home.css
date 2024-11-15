@@ -1,0 +1,6 @@
+
+.update-modal .modal-wrapper {
+    --width: 92vw;
+    --height: 190px;
+    border-radius: 5px;
+}
